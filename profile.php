@@ -145,6 +145,20 @@ if(!isset($_SESSION["uid"])){
 			</div>
 		</div>
 	</div>
+	<div class='col-md-4'>
+					<div class='card'>
+								<div class='product-image'>
+								<img src='product_images/$pro_image' style='width:220px; height:250px;'/>
+								</div>
+								<div class='product-info'>
+								<div class='panel-heading'>$pro_title</div>
+								<div class='panel-heading'>" . CURRENCY . ". $pro_price.00/-
+								<button pid='$pro_id' style='float:right;' id='product' class='btn btn-danger btn-xs'>Add To Cart</button>
+							</div>
+								</div>
+								<button type='button'><i class='fa fa-link'></i> View Details</button>
+							</div>
+					</div>
 </body>
 </html>
 
